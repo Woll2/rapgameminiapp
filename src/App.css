@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: #0A0A0A;
+}
+
+.card {
+  background: #141414;
+  border-radius: 16px;
+  padding: 24px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #2A2A2A;
+}
+
+.card-header {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.card-header h1 {
+  color: #00FF41;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.balance {
+  color: #888;
+  font-size: 14px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+input {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #2A2A2A;
+  border-radius: 12px;
+  background: #0A0A0A;
+  color: #FFF;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #00FF41;
+}
+
+input::placeholder {
+  color: #666;
+}
+
+.currency {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.info {
+  margin-bottom: 24px;
+}
+
+.info p {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buy-button {
+  background: #00FF41;
+  color: #0A0A0A;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  width: 100%;
+}
+
+.buy-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* TON Connect button styling */
+.ton-connect-button {
+  width: 100% !important;
+  background: #00FF41 !important;
+  color: #0A0A0A !important;
+  border-radius: 12px !important;
+  padding: 16px 32px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  transition: opacity 0.2s !important;
+}
